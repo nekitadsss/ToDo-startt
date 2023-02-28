@@ -1,0 +1,52 @@
+body {
+  font-family: "Mynerve", cursive;
+  margin: 0;
+  padding: 0;
+  background-color: #bff8ff;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.websiteTodo {
+  position: relative;
+  display: flex;
+  justify-content: center;
+}
+
+.websiteTodo__content {
+  padding: 50px 25px 100px;
+  background-color: #d7faf2;
+}
+
+.content__item + .content__item {
+  padding-top: 20px;
+}
+
+.content__item {
+  font-family: "Shantell Sans", cursive;
+}
+
+.websiteTodo__title {
+  display: flex;
+  background-color: #5eebca;
+  padding: 15px 100px 15px;
+}
+
+.websiteTodo__item {
+  margin: 10px;
+  position: absolute;
+}
+
+.newTask {
+  position: absolute;
+  bottom: 0;
+  margin-left: 60px;
+}
+
+.newTask-text {
+  padding: 10px 20px 10px 20px;
+  background-color: #5eebca;
+  border-radius: 30px;
+}/*# sourceMappingURL=styles.css.map */
