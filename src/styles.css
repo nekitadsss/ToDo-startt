@@ -9,10 +9,12 @@ body {
   box-sizing: border-box;
 }
 
-.websiteTodo {
-  position: relative;
-  display: flex;
-  justify-content: center;
+.App{
+	position: relative;
+	max-width: 400px;
+	display: flex;
+	margin-left: auto;
+	margin-right: auto;
 }
 
 .websiteTodo__content {
@@ -82,7 +84,7 @@ ul {
 	font-weight: 700;
 	position: absolute;
 	bottom: -25px;
-	right: 96px;
+	left: 88px;
 	padding: 17px 20px;
 	border-radius: 35%;
 	background-color: #5eebca;;
